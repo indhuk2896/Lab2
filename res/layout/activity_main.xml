@@ -152,18 +152,16 @@
         android:layout_toLeftOf="@+id/button2"
         android:text="1" />
 
-    <EditText
-        android:id="@+id/editText1"
+    <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/button2"
         android:layout_alignLeft="@+id/button1"
         android:layout_alignRight="@+id/button13"
-        android:layout_marginBottom="26dp"
-        android:ems="10"
-        android:inputType="number" >
-
-        <requestFocus />
-    </EditText>
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="46dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>
